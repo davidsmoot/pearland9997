@@ -3,13 +3,8 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/Users/dsmoot/NetBeansProjects/Pearland_9997v2/src/org/usfirst/frc9997/Pearland_9997v2/subsystems/BallGrabber.java</file>
-            <file>file:/Users/dsmoot/NetBeansProjects/Pearland_9997v2/src/org/usfirst/frc9997/Pearland_9997v2/commands/SpinRightArm.java</file>
-            <file>file:/Users/dsmoot/NetBeansProjects/Pearland_9997v2/src/org/usfirst/frc9997/Pearland_9997v2/commands/SpinLeftArm.java</file>
-            <file>file:/Users/dsmoot/NetBeansProjects/Pearland_9997v2/src/org/usfirst/frc9997/Pearland_9997v2/RobotMap.java</file>
-            <file>file:/Users/dsmoot/NetBeansProjects/Pearland_9997v2/src/org/usfirst/frc9997/Pearland_9997v2/subsystems/Feedback.java</file>
-            <file>file:/Users/dsmoot/NetBeansProjects/Pearland_9997v2/src/org/usfirst/frc9997/Pearland_9997v2/OI.java</file>
-            <file>file:/Users/dsmoot/NetBeansProjects/Pearland_9997v2/src/org/usfirst/frc9997/Pearland_9997v2/Robot.java</file>
+            <file>file:/C:/Users/Sean/Documents/Pearland_9997v2/src/org/usfirst/frc9997/Pearland_9997v2/Robot.java</file>
+            <file>file:/C:/Users/Sean/Documents/Pearland_9997v2/src/org/usfirst/frc9997/Pearland_9997v2/OI.java</file>
         </group>
     </open-files>
 </project-private>

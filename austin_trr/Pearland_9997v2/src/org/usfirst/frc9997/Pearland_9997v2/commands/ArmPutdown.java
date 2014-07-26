@@ -13,16 +13,17 @@ package org.usfirst.frc9997.Pearland_9997v2.commands;
 
 import edu.wpi.first.wpilibj.Timer;
 import edu.wpi.first.wpilibj.command.Command;
+import org.usfirst.frc9997.Pearland_9997v2.OI;
 import org.usfirst.frc9997.Pearland_9997v2.Robot;
 import org.usfirst.frc9997.Pearland_9997v2.subsystems.*;
 
 /**
  *
  */
-public class  SpinRightArm extends Command {
+public class  ArmPutdown extends Command {
     public static BallGrabber ballGrabber = new BallGrabber();
 
-    public SpinRightArm() {
+    public ArmPutdown() {
         // Use requires() here to declare subsystem dependencies
         // eg. requires(chassis);
 	
@@ -39,17 +40,24 @@ public class  SpinRightArm extends Command {
     // Called repeatedly when this Command is scheduled to run
     protected void execute() {
         System.out.println("SpinRightArm Executed");
-        ballGrabber.rightArm.set(-50);
+        ballGrabber.rightArm.set(-.5);
+        ballGrabber.leftArm.set(-.5);
     }
 
     // Make this return true when this Command no longer needs to run execute()
     protected boolean isFinished() {
-        Timer.delay(2);
+
+        while(OI.btnLeftBumper.get())
+        {}
         return true;
+     //   System.out.println("button is" + OI.btnBlueX.get());
+     //    return OI.btnBlueX.get();
     }
 
     // Called once after isFinished returns true
     protected void end() {
+        ballGrabber.rightArm.set(0);
+        ballGrabber.leftArm.set(0);
         System.out.println("SpinRightArm Stop");
     }
 
